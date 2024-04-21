@@ -1,3 +1,4 @@
+import 'package:api/ui/pages/home/widget/builder.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -8,11 +9,7 @@ class HomeScreen extends StatelessWidget {
    Widget build(BuildContext context) {
        return Scaffold(
            appBar: AppBar(title: const Text(''),),
-           body: const Column(
-            children: [
-
-            ],
-           ),
+           body: const BuilderWidget()
        );
   }
 }
